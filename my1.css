@@ -1,0 +1,109 @@
+
+body{
+margin: 0;
+}
+header{
+    display: flex;
+    width:100vw;
+    height: 100px;
+    align-items: center;
+    background:url('pic3.jfif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header h1{
+    color: whitesmoke;
+    padding-left: 550px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.marq1{
+    font-style: italic;
+    color: black;
+    background-color: plum;
+    margin-top: 25px;
+    display: block;
+    margin: 0;
+    height: 35px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.border{
+    border: 1px solid blue;
+    display: inline-block;
+    align-items: center;
+    padding: 25px;
+    background-color: yellow;
+    box-shadow: 4px 4px 4px 4px black;
+    margin: 0%;
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example{
+    0%{background-color: fuchsia;}
+    25%{background-color: pink;}
+    50%{background-color: aqua;}
+    100%{background-color: yellowgreen;}
+  }
+.border:hover{
+    padding: 50px;
+    transition: 0s;
+    box-shadow: 5px 5px 5px 5px black;
+    animation-name: example2;
+    animation-duration: 5s;
+}
+@keyframes example2{
+    0%{background-color:skyblue;}
+    25%{background-color: rosybrown;}
+    50%{background-color: chartreuse;}
+    100%{background-color: orange;}
+  }
+.home{
+    align-items: center;
+    padding-top: 150px;
+    background: url('pic.jfif');
+    padding-bottom: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.tab{
+    color:darkblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+table ul li{
+    color: bisque;
+}
+.abut{
+    padding: 200px;
+    background: url('pic.jfif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+img{
+    width: 210px;
+    border: 3px solid #000000;
+    display: flexbox;
+    justify-content:space-around;
+  }
+  .marq2{
+    font-style: italic;
+    color: wheat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 5px;
+    display: block;
+    margin: 0;
+    height: 25px;
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background: url('pic.jfif');
+}
+.boder{
+    animation-name: example;
+    animation-duration: 5s;
+}
+
